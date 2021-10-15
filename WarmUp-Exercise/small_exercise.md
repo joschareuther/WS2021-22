@@ -8,7 +8,7 @@
     <h1><big>Das hier ist Furtwangen</big></h1>
     <p>Hier können Sie studieren</p> 
     <p></p>
-    <img src="C:\Users\josch\Documents\GitHub\WarmUp-Exercise\images\freiburg" alt="Freiburg"> 
+    <img src="C:\Users\josch\Documents\GitHub\WS2021-22\WarmUp-Exercise\images\freiburg" alt="Freiburg"> 
     <img src="voegel.png">
     <img src="C:\Users\josch\Documents\GitHub\WarmUp-Exercise\images\furtwangen">
 </body> 
