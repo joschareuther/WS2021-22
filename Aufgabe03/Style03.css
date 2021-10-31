@@ -1,8 +1,6 @@
-#Kreis{
-    color: rgb(20, 48, 34);
-}
+
 h4{
-    color: rgb(71, 45, 51);
+    color: rgb(172, 46, 8);
 }
 body{
     background-image: url("../Aufgabe03/images/bg.png");
@@ -11,20 +9,22 @@ body{
 nav{
     position: sticky;
 }
-li{
-    list-style: none;
-    display: inline;
-    padding-top: 50px;
-    background-color: slategrey;
-    color: blueviolet;
-    margin: 50px 0 0 auto;
-    font-size: 32px;
-
-
-
-}
 
 a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: medium;
+    color: mintcream;
 }
+#Kreis {
+    border-radius: 600px;
+    background: rgb(172, 46, 8);
+    padding: 400px; 
+    width: 150px;
+    height: 150px;  
+    margin: -520px 0px 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
