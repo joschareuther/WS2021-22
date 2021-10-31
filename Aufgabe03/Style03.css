@@ -1,17 +1,16 @@
 
-h4{
-    color: rgb(172, 46, 8);
-}
 body{
     background-image: url("../Aufgabe03/images/bg.png");
     overflow-y: scroll;
 }
+
 nav{
     position: sticky;
 }
 
 a{
     font-family: Arial, sans-serif;
+    text-decoration: none;
     font-size: medium;
     color: rgb(255, 255, 255);
 }
@@ -21,16 +20,61 @@ a{
     padding: 400px; 
     width: 10px;
     height: 10px;    
-    margin: -400px 0px 80px;
+    margin: -300px 0px 80px;
     margin-left: auto;
-    margin-right: auto;
-    
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: bolder;
+    margin-right: auto; 
 }
 
+#Schrift1{
+    text-align: center;
+    margin: -770px 0px 100px;
+    font-size: 190px;
+    font-weight: 800;
+    letter-spacing: -20px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-image: url("../Aufgabe03/images/bg.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Schrift2{
+    background-image: url("../Aufgabe03/images/bg.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin: -260px 0px 10px 320px;
+}
+
+#Schrift3{
+    background-image: url("../Aufgabe03/images/bg.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: lefts;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px 20px 600px;
+}
+
+
+
+
+img, video{
+    display: block; width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 5px;
+ }
+
+ h4{
+    text-align: left; 
+      padding: 25px 0px 0px 360px; 
+      font-size: 18px;
+      color: #B63514;
+  }
+  
 
 
 
