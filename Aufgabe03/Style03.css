@@ -58,6 +58,12 @@ a{
     margin: 0px 0px 20px 600px;
 }
 
+img[src="../Aufgabe03/images/icon_facebook.png/"]{
+    display: block; width: 30px;
+    position: absolute;
+    left: 902px;
+    top: 420px;
+  }
 
 
 
