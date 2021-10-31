@@ -13,18 +13,23 @@ nav{
 a{
     font-family: Arial, sans-serif;
     font-size: medium;
-    color: mintcream;
+    color: rgb(255, 255, 255);
 }
 #Kreis {
-    border-radius: 600px;
-    background: rgb(172, 46, 8);
+    border-radius: 800px;
+    background: #ad4221;
     padding: 400px; 
-    width: 150px;
-    height: 150px;  
-    margin: -520px 0px 80px;
+    width: 10px;
+    height: 10px;    
+    margin: -400px 0px 80px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-  }
+    
+    text-align:initial;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+
+
 
 
