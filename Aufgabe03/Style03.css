@@ -57,15 +57,13 @@ a{
     font-weight: 300;
     margin: 0px 0px 20px 600px;
 }
-#Logo{
-    width: 30px;
-    margin-top: 10px;
-    opacity: 50%; cursor: pointer;
-}
+#Logo {opacity: 70%; cursor: pointer;}
+#Logo {width: 10px;     margin-left: auto;
+    margin-right: auto; padding: 0px 0px 5px;}
 #Logo:hover{ 
     opacity: 100%;
 }
-img, video{
+.Medien{
     display: block; width: 800px;
     margin-left: auto;
     margin-right: auto;
