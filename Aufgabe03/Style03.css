@@ -14,6 +14,23 @@ a{
     font-size: medium;
     color: rgb(255, 255, 255);
 }
+
+.Knopf:hover {background-color: rgb(116, 116, 116);}
+.Knopf.gedrückt {background-color: rgb(0, 0, 0); color: rgb(255, 153, 0);}
+.Bedienfeld {text-align: right; padding: 0px 200px 10px 0px;}
+
+.Knopf {
+    border: 1px #000000;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px -2.5px;
+    border-radius: 5px;}
+    
+
 #Kreis {
     border-radius: 800px;
     background: #ac310b;
