@@ -57,10 +57,12 @@ a{
     font-weight: 300;
     margin: 0px 0px 20px 600px;
 }
-.Logo{
+#Logo{
+    width: 30px;
+    margin-top: 10px;
     opacity: 50%; cursor: pointer;
 }
-.Logo:hover{ 
+#Logo:hover{ 
     opacity: 100%;
 }
 img, video{
