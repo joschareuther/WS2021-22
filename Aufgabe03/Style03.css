@@ -8,10 +8,27 @@ p{
     color: white;
 }
 h4{
-    color: crimson;
+    color: rgb(71, 45, 51);
 }
-body {
-    background-color: rgb(100, 26, 57);
+body{
+    background-color: rgb(95, 27, 95);
+    font-family: sans-serif;
+}
+
+nav{
+    position: sticky;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    background-color: slategrey;
+    color: blueviolet;
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 40px 0;
+    padding-right: 20px;
+
 }
 
 a{
