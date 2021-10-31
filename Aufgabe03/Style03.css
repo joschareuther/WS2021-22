@@ -57,7 +57,12 @@ a{
     font-weight: 300;
     margin: 0px 0px 20px 600px;
 }
-
+.Logo{
+    opacity: 50%; cursor: pointer;
+}
+.Logo:hover{ 
+    opacity: 100%;
+}
 img, video{
     display: block; width: 800px;
     margin-left: auto;
