@@ -1,0 +1,42 @@
+body {
+background-color: black;
+color: white;
+}
+
+.page-wrapper {
+    background-color: rgb(255, 255, 255);
+    display:block;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    color: black;
+}
+.element-top-left{
+    position: relative;
+    top: 0px;
+    left: 0px
+}
+
+.element-top-right{
+    position: relative;
+    top: -17px;
+    left: 770px;
+}
+.element-center{
+    position: relative;
+    top: 140px;
+    left: 360px;
+}
+
+.element-bottom-right{
+    position: relative;
+    top: 320px;
+    left: 770px;
+}
+
+.element-bottom-left{
+    position: relative;
+    top: 340px;
+}
