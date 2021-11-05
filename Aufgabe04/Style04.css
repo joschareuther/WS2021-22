@@ -1,43 +1,42 @@
 body{
-    background-image: url("./images/bg.png") ;
-    overflow-y: scroll;
+    background-image: url("./images/bg.png");
 }
 
 .Karte{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 170px;
+    left: 450px;
+    width: 600px;
+    height: 500px;
 }
 
+.Hintergrund{
+    background-image: url("./images/wrapperbg.png");
+    background-repeat: no-repeat;
+}
 .Busch{
-    position: relative;
-    top: 0px;
-    right: 90px;
+    position: absolute;
+    top: -50px;
+    left: -60px;
 }
 
 .Pinguin{
-    position: relative;
-    left: 0px;
-    top: 0px;
+    position: absolute;
+    left: 500px;
+    top: 230px;
 }
 
-h1{
-    width: 500px;
-    font-size: 35px;
+.Überschrift{
+    position: absolute;
+    right: 210px;
+    top: 30px;
     color: white;
-    position: relative;
-    top: 20px;
-    left: 25px;
-    text-align: left;
 }
 
 .Text{
-    width: 500px;
-    font-size: 17px;
     position: absolute;
-    color:white;
-    top: 300px;
-    left: 530px;
-    text-align: left;
+    right: 35px;
+    top: 160px;
+    color: white;
+
 }
