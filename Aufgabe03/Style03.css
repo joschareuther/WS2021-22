@@ -48,6 +48,13 @@ nav{
     -webkit-text-fill-color: transparent;
 }
 
+#Pferdelogo {
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 #Schrift2{
     background-image: url("../Aufgabe03/images/bg.png");
     -webkit-background-clip: text;
