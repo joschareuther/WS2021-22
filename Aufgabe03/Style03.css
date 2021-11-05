@@ -8,13 +8,6 @@ nav{
     position: sticky;
 }
 
-a{
-    font-family: Arial, sans-serif;
-    text-decoration: none;
-    font-size: medium;
-    color: rgb(255, 255, 255);
-}
-
 .Knopf:hover {background-color: rgb(116, 116, 116);}
 .Knopf.gedrückt {background-color: rgb(0, 0, 0); color: rgb(255, 153, 0);}
 .Bedienfeld {text-align: right; padding: 0px 200px 10px 0px;}
@@ -123,7 +116,5 @@ a{
             color: white;
             margin-bottom: 200px;
             margin-left: 10px;
-            cursor: pointer;}
-  
-
-
+            cursor: pointer;
+        }
