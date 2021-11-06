@@ -16,9 +16,9 @@ body{
 }
 
 .Überschrift{
-    color:white;
+    color:rgb(255, 255, 255);
     position: absolute;
-    right: 500px;
+    right: 120px;
     top: 30px;
 }
 
@@ -31,7 +31,14 @@ body{
 
 .Text{
     position: absolute;
-    right: 160px;
-    top: 200px;
-    color: white;
+    right: 200px;
+    top: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.Kontaktformular{
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    color:wheat;
 }
