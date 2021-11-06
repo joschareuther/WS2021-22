@@ -1,5 +1,5 @@
 body{
-    background-image: url("./images/bg.png");
+    background-image: url("./images2/bg.png");
 }
 
 .Karte{
@@ -11,13 +11,26 @@ body{
 }
 
 .Hintergrund{
-    background-image: url("./images/wrapperbg.png");
+    background-image: url("./images2/wrapperbg.png");
     background-repeat: no-repeat;
 }
-.Busch{
+
+.Überschrift{
+    color:white;
     position: absolute;
-    top: -50px;
-    left: -60px;
+    right: 160px;
+    top: 30px;
+}
+.Stern1, .Stern1_hover{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+.Stern1_hover{
+    opacity: 0%;
+}
+.Stern1_hover:hover{
+    opacity: 100%;
 }
 
 .Pinguin{
@@ -26,17 +39,47 @@ body{
     top: 230px;
 }
 
-.Überschrift{
+
+.Stern2, .Stern2_hover{
     position: absolute;
-    right: 210px;
-    top: 30px;
-    color: white;
+    top: 200px;
+    left: 200px;
 }
+
+.Stern2_hover{
+    opacity: 0%;
+}
+.Stern2_hover:hover{
+    opacity: 100%;
+}
+
+.Stern3, .Stern3_hover{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+
+.Stern3_hover{
+    opacity: 0%;
+}
+.Stern3_hover:hover{
+    opacity: 100%;}
+
+.Stern4, .Stern4_hover{
+    position: absolute;
+    top: 150px;
+    left: 390px;
+}
+
+.Stern4_hover{
+    opacity: 0%;
+}
+.Stern4_hover:hover{
+    opacity: 100%;}
 
 .Text{
     position: absolute;
-    right: 35px;
-    top: 160px;
+    right: 160px;
+    top: 80px;
     color: white;
-
 }
