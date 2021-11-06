@@ -1,0 +1,42 @@
+body{
+    background-image: url("./images/bg.png");
+}
+
+.Karte{
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    width: 600px;
+    height: 500px;
+}
+
+.Hintergrund{
+    background-image: url("./images/wrapperbg.png");
+    background-repeat: no-repeat;
+}
+.Busch{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+
+.Pinguin{
+    position: absolute;
+    left: 500px;
+    top: 230px;
+}
+
+.Überschrift{
+    position: absolute;
+    right: 210px;
+    top: 30px;
+    color: white;
+}
+
+.Text{
+    position: absolute;
+    right: 35px;
+    top: 160px;
+    color: white;
+
+}
