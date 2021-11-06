@@ -1,5 +1,5 @@
 body{
-    background-image: url("./images/bg.png");
+    background-image: url("./images5/bg.png");
 }
 header a {
     text-decoration: none;
@@ -21,7 +21,7 @@ header a {
 }
 
 .Hintergrund{
-    background-image: url("./images/wrapperbg.png");
+    background-image: url("./images5/container.png");
     background-repeat: no-repeat;
 }
 .Busch{
@@ -30,23 +30,44 @@ header a {
     left: -60px;
 }
 
-.Pinguin{
-    position: absolute;
-    left: 500px;
-    top: 230px;
-}
 
 .Überschrift{
     position: absolute;
-    right: 210px;
+    left: 60px;
     top: 30px;
     color: white;
 }
 
 .Text{
     position: absolute;
-    right: 35px;
-    top: 160px;
+    left:40px;
+    top: 130px;
     color: white;
+    width: 300px;
+    height: 200px;
+    z-index: 3;
+}
 
+.Tannenbaum{
+    position: absolute;
+    left: 325px;
+    top: 29px;
+    z-index: 0;
+}
+
+.Stern1{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.Stern2{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+.Stern3{
+    position: absolute;
+    left: 250px;
+    top: 30px;
 }
