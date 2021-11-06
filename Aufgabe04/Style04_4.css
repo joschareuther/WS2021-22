@@ -1,0 +1,83 @@
+body{
+    background-image: url("./images4/bg.png");
+}
+
+header a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight:lighter;
+    color: black;
+    background-color: rgb(207, 63, 63);
+    padding: 2px 4px 2px 10px;
+    border-radius: 5px;
+   
+}
+
+.Karte{
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    width: 600px;
+    height: 500px;
+}
+
+.Hintergrund{
+    background-image: url("./images/wrapperbg.png");
+    background-repeat: no-repeat;
+}
+.Busch{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+
+.Pinguin{
+    position: absolute;
+    left: 370px;
+    top: 274px;
+}
+
+.Überschrift{
+    position: absolute;
+    right: 0px;
+    left: 80px;
+    top: 30px;
+    color: white;
+}
+
+.Text{
+    position: absolute;
+    right: 0px;
+    left: 28px;
+    top: 140px;
+    color: white;
+}
+
+.schnee1 {
+        animation: fall 3s infinite ease-in-out;
+        position:absolute;
+        left: 100px;
+        top: 0px;
+    }
+.schnee2 {
+        animation: fall 3.5s infinite ease-in-out;
+        position:absolute;
+        left: 400px;
+        top: 0px;
+    }
+.schnee3 {
+        animation: fall 4s 0.5s infinite ease-in-out;
+        position:absolute;
+        left: 300px;
+        top: 0px;
+    }
+    
+@keyframes fall {
+        from {
+            margin-top: 0px;
+        }
+    
+        to {
+            margin-top: 350px;
+        }
+}
