@@ -23,3 +23,10 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
+
+.northamerica:hover{opacity: 50%;}
+.southamerica:hover{opacity: 50%;}
+.asia:hover{opacity: 50%;}
+.africa:hover{opacity: 50%;}
+.australia:hover{opacity: 50%;}
+.europe:hover{opacity: 50%;}
