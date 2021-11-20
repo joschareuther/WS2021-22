@@ -47,28 +47,14 @@ var resultAS4 = AS2018 - AS2008;
 var resultAU2 = hundert / gesamt * AU2018;
 var resultAU3 = hundert / AU2008 * AU2018 - hundert;
 var resultAU4 = AU2018 - AU2008;
-console.log(text1_1 + Europa + text1_2 + EU2018 + text1_3);
-console.log(text2_1 + Europa + text2_2 + resultEU2 + text2_3);
-console.log(text3_1 + Europa + text3_2 + resultEU3 + text3_3);
-console.log(text4_1 + resultEU4 + text1_3);
-console.log(text1_1 + Südamerika + text1_2 + SA2018 + text1_3);
-console.log(text2_1 + Südamerika + text2_2 + resultSA2 + text2_3);
-console.log(text3_1 + Südamerika + text3_2 + resultSA3 + text3_3);
-console.log(text4_1 + resultSA4 + text1_3);
-console.log(text1_1 + Nordamerika + text1_2 + NA2018 + text1_3);
-console.log(text2_1 + Nordamerika + text2_2 + resultNA2 + text2_3);
-console.log(text3_1 + Nordamerika + text3_2 + resultNA3 + text3_3);
-console.log(text4_1 + resultNA4 + text1_3);
-console.log(text1_1 + Afrika + text1_2 + AF2018 + text1_3);
-console.log(text2_1 + Afrika + text2_2 + resultAF2 + text2_3);
-console.log(text3_1 + Afrika + text3_2 + resultAF3 + text3_3);
-console.log(text4_1 + resultAF4 + text1_3);
-console.log(text1_1 + Asien + text1_2 + AS2018 + text1_3);
-console.log(text2_1 + Asien + text2_2 + resultAS2 + text2_3);
-console.log(text3_1 + Asien + text3_2 + resultAS3 + text3_3);
-console.log(text4_1 + resultAS4 + text1_3);
-console.log(text1_1 + Australien + text1_2 + AU2018 + text1_3);
-console.log(text2_1 + Australien + text2_2 + resultAU2 + text2_3);
-console.log(text3_1 + Australien + text3_2 + resultAU3 + text3_3);
-console.log(text4_1 + resultAS4 + text1_3);
+function myFunction(Land) {
+    document.querySelector("#titleRegion").innerHTML = Land;
+    document.querySelector("#subtitleRegion").innerHTML = Land;
+}
+document.querySelector(".europe").addEventListener("click", function () { myFunction(Europa); });
+document.querySelector(".northamerica").addEventListener("click", function () { myFunction(Nordamerika); });
+document.querySelector(".southamerica").addEventListener("click", function () { myFunction(Südamerika); });
+document.querySelector(".africa").addEventListener("click", function () { myFunction(Afrika); });
+document.querySelector(".asia").addEventListener("click", function () { myFunction(Asien); });
+document.querySelector(".australia").addEventListener("click", function () { myFunction(Australien); });
 //# sourceMappingURL=Script06.js.map
