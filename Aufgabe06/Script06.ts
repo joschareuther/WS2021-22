@@ -80,3 +80,19 @@ document.querySelector(".asia").addEventListener("click", function () {myFunctio
 document.querySelector(".australia").addEventListener("click",function () {myFunction(Australien); });
 
 
+
+function function2(Emissionen:any, Relativ:any, GrowthRateinp:any, GrowthRateabsolute:any) {
+    document.querySelector("#Emission").innerHTML = Emissionen.toFixed(2);
+    document.querySelector("#Relative").innerHTML = Relativ.toFixed(2) + "%";
+    document.querySelector("#Growth").innerHTML = GrowthRateinp.toFixed(2)  + "%";
+    document.querySelector("#GrowthRate").innerHTML = GrowthRateabsolute.toFixed(2);
+    }
+
+document.querySelector(".europe").addEventListener("click", function () {function2(EU2018, resultEU2, resultEU3, resultEU4); });
+document.querySelector(".northamerica").addEventListener("click", function () {function2(NA2018, resultNA2, resultNA3, resultNA4); });
+document.querySelector(".southamerica").addEventListener("click", function () {function2(SA2018, resultSA2, resultSA3, resultSA4); });
+document.querySelector(".africa").addEventListener("click", function () {function2(AF2018, resultAF2, resultAF3, resultAF4); });
+document.querySelector(".asia").addEventListener("click", function () {function2(AS2018, resultAS2, resultAS3, resultAS4); });
+document.querySelector(".australia").addEventListener("click",function () {function2(AU2018, resultAU2, resultAU3, resultAU4); });
+
+
