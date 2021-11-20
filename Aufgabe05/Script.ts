@@ -1,4 +1,4 @@
-alert("Untersuchen Sie die Konsole!");
+alert("Untersuchen Sie die Konsole!!");
 
 var text1_1: string="Die Emission von ";
 var text1_2: string=" ist ";

@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "/c:/Users/josch/Documents/GitHub/WS2021-22/Aufgabe05/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build",
+			"label": "tsc: Erstellen – /c:/Users/josch/Documents/GitHub/WS2021-22/Aufgabe05/tsconfig.json"
+		}
+	]
+}
