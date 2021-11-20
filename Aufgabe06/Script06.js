@@ -62,6 +62,8 @@ function function2(Emissionen, Relativ, GrowthRateinp, GrowthRateabsolute) {
     document.querySelector("#Relative").innerHTML = Relativ.toFixed(2) + "%";
     document.querySelector("#Growth").innerHTML = GrowthRateinp.toFixed(2) + "%";
     document.querySelector("#GrowthRate").innerHTML = GrowthRateabsolute.toFixed(2);
+    var Grafik = document.querySelector(".chart");
+    Grafik.style.height = Relativ + "px";
 }
 document.querySelector(".europe").addEventListener("click", function () { function2(EU2018, resultEU2, resultEU3, resultEU4); });
 document.querySelector(".northamerica").addEventListener("click", function () { function2(NA2018, resultNA2, resultNA3, resultNA4); });
