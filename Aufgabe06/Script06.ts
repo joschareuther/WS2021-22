@@ -1,5 +1,4 @@
-
-var text1_1: string="Die Emission von  ";
+var text1_1: string="Die Emission von ";
 var text1_2: string=" ist ";
 var text1_3: string=" kg CO2.";
 
@@ -64,3 +63,43 @@ var resultAU2:number= hundert / gesamt * AU2018;
 var resultAU3:number= hundert / AU2008 * AU2018 - hundert;
 var resultAU4:number= AU2018 - AU2008;
 
+
+
+console.log(text1_1 + Europa + text1_2 + EU2018 + text1_3);
+console.log(text2_1 + Europa + text2_2 + resultEU2 + text2_3);
+console.log(text3_1 + Europa + text3_2 + resultEU3 + text3_3);
+console.log(text4_1 + resultEU4 + text1_3);
+
+
+console.log(text1_1 + Südamerika + text1_2 + SA2018 + text1_3);
+console.log(text2_1 + Südamerika + text2_2 + resultSA2 + text2_3);
+console.log(text3_1 + Südamerika + text3_2 + resultSA3 + text3_3);
+console.log(text4_1 + resultSA4 + text1_3);
+
+
+
+console.log(text1_1 + Nordamerika + text1_2 + NA2018 + text1_3);
+console.log(text2_1 + Nordamerika + text2_2 + resultNA2 + text2_3);
+console.log(text3_1 + Nordamerika + text3_2 + resultNA3 + text3_3);
+console.log(text4_1 + resultNA4 + text1_3);
+
+
+
+console.log(text1_1 + Afrika + text1_2 + AF2018 + text1_3);
+console.log(text2_1 + Afrika + text2_2 + resultAF2 + text2_3);
+console.log(text3_1 + Afrika + text3_2 + resultAF3 + text3_3);
+console.log(text4_1 + resultAF4 + text1_3);
+
+
+
+console.log(text1_1 + Asien + text1_2 + AS2018 + text1_3);
+console.log(text2_1 + Asien + text2_2 + resultAS2 + text2_3);
+console.log(text3_1 + Asien + text3_2 + resultAS3 + text3_3);
+console.log(text4_1 + resultAS4 + text1_3);
+
+
+
+console.log(text1_1 + Australien + text1_2 + AU2018 + text1_3);
+console.log(text2_1 + Australien + text2_2 + resultAU2 + text2_3);
+console.log(text3_1 + Australien + text3_2 + resultAU3 + text3_3);
+console.log(text4_1 + resultAS4 + text1_3);
