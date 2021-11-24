@@ -1,6 +1,3 @@
-
-
-
 var text1_1: string="Die Emission von ";
 var text1_2: string=" ist ";
 var text1_3: string=" kg CO2.";
@@ -67,9 +64,15 @@ var resultAU3:number= hundert / AU2008 * AU2018 - hundert;
 var resultAU4:number= AU2018 - AU2008;
 
 
-function myFunction(Land: string){
+function myFunction(Land: string, Relativ:number, GrowthRateinp:number, GrowthRateabsolute:number, Emissionen: number){
     document.querySelector("#titleRegion").innerHTML = Land;
     document.querySelector("#subtitleRegion").innerHTML = Land;
+    document.querySelector("#Emission").innerHTML = Emissionen.toFixed(2);
+    document.querySelector("#Relative").innerHTML = Relativ.toFixed(2) + "%";
+    document.querySelector("#Growth").innerHTML = GrowthRateinp.toFixed(2) + "%";
+    document.querySelector("#GrowthRate").innerHTML = GrowthRateabsolute.toFixed(2);
+    var Grafik = document.querySelector(".chart");
+    Grafik.style.height = Relativ + "px";
     }
 
 document.querySelector(".europe").addEventListener("click", function () {myFunction(Europa); });
@@ -81,18 +84,9 @@ document.querySelector(".australia").addEventListener("click",function () {myFun
 
 
 
-function function2(Emissionen:any, Relativ:any, GrowthRateinp:any, GrowthRateabsolute:any) {
-    document.querySelector("#Emission").innerHTML = Emissionen.toFixed(2);
-    document.querySelector("#Relative").innerHTML = Relativ.toFixed(2) + "%";
-    document.querySelector("#Growth").innerHTML = GrowthRateinp.toFixed(2) + "%";
-    document.querySelector("#GrowthRate").innerHTML = GrowthRateabsolute.toFixed(2);
-    var Grafik = document.querySelector(".chart");
-    Grafik.style.height = Relativ + "px";
-    }
-
-document.querySelector(".europe").addEventListener("click", function () {function2(EU2018, resultEU2, resultEU3, resultEU4); });
-document.querySelector(".northamerica").addEventListener("click", function () {function2(NA2018, resultNA2, resultNA3, resultNA4); });
-document.querySelector(".southamerica").addEventListener("click", function () {function2(SA2018, resultSA2, resultSA3, resultSA4); });
-document.querySelector(".africa").addEventListener("click", function () {function2(AF2018, resultAF2, resultAF3, resultAF4); });
-document.querySelector(".asia").addEventListener("click", function () {function2(AS2018, resultAS2, resultAS3, resultAS4); });
-document.querySelector(".australia").addEventListener("click",function () {function2(AU2018, resultAU2, resultAU3, resultAU4); });
+document.querySelector(".europe").addEventListener("click", function () {myFunction(EU2018, resultEU2, resultEU3, resultEU4); });
+document.querySelector(".northamerica").addEventListener("click", function () {myFunction(NA2018, resultNA2, resultNA3, resultNA4); });
+document.querySelector(".southamerica").addEventListener("click", function () {myFunction(SA2018, resultSA2, resultSA3, resultSA4); });
+document.querySelector(".africa").addEventListener("click", function () {myFunction(AF2018, resultAF2, resultAF3, resultAF4); });
+document.querySelector(".asia").addEventListener("click", function () {myFunction(AS2018, resultAS2, resultAS3, resultAS4); });
+document.querySelector(".australia").addEventListener("click",function () {myFunction(AU2018, resultAU2, resultAU3, resultAU4); });
