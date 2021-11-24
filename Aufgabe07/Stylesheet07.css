@@ -1,0 +1,102 @@
+h1{
+    background-color: blueviolet;
+}
+
+body{
+    background-color: rgb(5, 27, 32);
+}
+
+.drumpad{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.knopf{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px rgba(209, 79, 181, 0.61);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    }
+
+.knopf:hover{
+    color: #313133;
+    transform: translateY(-4px);
+}
+
+#button1:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #ff006a, #ca00fd);
+}
+#button2:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #ff006a, #ca00fd);
+}
+#button3:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #fd00fd, #4c00fd);
+}
+
+#button4:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #ff006a, #ca00fd);
+}
+
+#button5:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #fd00fd, #4c00fd);
+}
+
+#button6:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #b500fd, #4300fdc9);
+}
+
+#button7:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #fd00fd, #4c00fd);
+}
+
+#button8:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #b500fd, #4300fdc9);
+}
+
+#button9:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #b500fd, #4300fdc9);
+}
+
+#playbutton{
+    position: absolute;
+    top: 117%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#playbutton:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    background: linear-gradient(140deg, #b500fd, #4300fdc9);
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px rgba(209, 79, 181, 0.61);
+    transition: all 0.1s ease-in-out 0s;
+    cursor: pointer;
+    
+}

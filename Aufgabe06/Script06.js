@@ -47,17 +47,15 @@ var resultAS4 = AS2018 - AS2008;
 var resultAU2 = hundert / gesamt * AU2018;
 var resultAU3 = hundert / AU2008 * AU2018 - hundert;
 var resultAU4 = AU2018 - AU2008;
-function myFunction(Land) {
+document.querySelector(".europe").addEventListener("click", function () { myFunction(Europa, EU2018, resultEU2, resultEU3, resultEU4); });
+document.querySelector(".northamerica").addEventListener("click", function () { myFunction(Nordamerika, NA2018, resultNA2, resultNA3, resultNA4); });
+document.querySelector(".southamerica").addEventListener("click", function () { myFunction(Südamerika, SA2018, resultSA2, resultSA3, resultSA4); });
+document.querySelector(".africa").addEventListener("click", function () { myFunction(Afrika, AF2018, resultAF2, resultAF3, resultAF4); });
+document.querySelector(".asia").addEventListener("click", function () { myFunction(Asien, AS2018, resultAS2, resultAS3, resultAS4); });
+document.querySelector(".australia").addEventListener("click", function () { myFunction(Australien, AU2018, resultAU2, resultAU3, resultAU4); });
+function myFunction(Land, Emissionen, Relativ, GrowthRateinp, GrowthRateabsolute) {
     document.querySelector("#titleRegion").innerHTML = Land;
     document.querySelector("#subtitleRegion").innerHTML = Land;
-}
-document.querySelector(".europe").addEventListener("click", function () { myFunction(Europa); });
-document.querySelector(".northamerica").addEventListener("click", function () { myFunction(Nordamerika); });
-document.querySelector(".southamerica").addEventListener("click", function () { myFunction(Südamerika); });
-document.querySelector(".africa").addEventListener("click", function () { myFunction(Afrika); });
-document.querySelector(".asia").addEventListener("click", function () { myFunction(Asien); });
-document.querySelector(".australia").addEventListener("click", function () { myFunction(Australien); });
-function function2(Emissionen, Relativ, GrowthRateinp, GrowthRateabsolute) {
     document.querySelector("#Emission").innerHTML = Emissionen.toFixed(2);
     document.querySelector("#Relative").innerHTML = Relativ.toFixed(2) + "%";
     document.querySelector("#Growth").innerHTML = GrowthRateinp.toFixed(2) + "%";
@@ -65,10 +63,4 @@ function function2(Emissionen, Relativ, GrowthRateinp, GrowthRateabsolute) {
     var Grafik = document.querySelector(".chart");
     Grafik.style.height = Relativ + "px";
 }
-document.querySelector(".europe").addEventListener("click", function () { function2(EU2018, resultEU2, resultEU3, resultEU4); });
-document.querySelector(".northamerica").addEventListener("click", function () { function2(NA2018, resultNA2, resultNA3, resultNA4); });
-document.querySelector(".southamerica").addEventListener("click", function () { function2(SA2018, resultSA2, resultSA3, resultSA4); });
-document.querySelector(".africa").addEventListener("click", function () { function2(AF2018, resultAF2, resultAF3, resultAF4); });
-document.querySelector(".asia").addEventListener("click", function () { function2(AS2018, resultAS2, resultAS3, resultAS4); });
-document.querySelector(".australia").addEventListener("click", function () { function2(AU2018, resultAU2, resultAU3, resultAU4); });
 //# sourceMappingURL=Script06.js.map
