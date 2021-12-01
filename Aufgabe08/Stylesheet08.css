@@ -1,0 +1,7 @@
+button {
+    background: red;
+}
+
+button.active {
+    background: blue;
+}
