@@ -1,7 +1,153 @@
-button {
-    background: red;
+h1{
+    background-color: #8a2be2;
 }
 
-button.active {
-    background: blue;
+body{
+    background-color: #051b20;
+}
+
+.drumpad{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.knopf{
+    height: 150px;
+    width: 150px;
+    border: 1px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px #d14fb59c;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    }
+
+.knopf:hover{
+    color: #313133;
+    transform: translateY(-4px);
+}
+
+
+#button1:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(140deg, #0044ff, #ca00fd);
+}
+#button2:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(180deg, #0044ff, #ca00fd);
+}
+#button3:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(200deg, #0044ff, #ca00fd);
+}
+
+#button4:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(200deg, #ca00fd, #ff006a);
+}
+
+#button5:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(180deg, #ca00fd, #ff006a);
+}
+
+#button6:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(180deg, #ca00fd, #ff006a);
+}
+
+#button7:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(90deg, #ca00fd, #d64054);}
+
+#button8:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(120deg, #fd5d00, #d64054);
+}
+
+#button9:hover{
+    border: 4px solid #00FFCB;
+    box-shadow: 0 0 60px #00ffcba3;
+    background: linear-gradient(140deg, #fd5d00, #d64054);
+}
+
+
+#Play{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+#Play:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 50%;;
+}
+
+#Play:active{
+    opacity: 3%;
+}
+
+#Microphone{
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+#Microphone:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+
+#Remix{
+    position: absolute;
+    top: 100%;
+    
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+#Remix:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+#Alt{
+    position: absolute;
+    top: 100%;
+    bottom: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    border-radius: 10px;
+}
+
+#Alt:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 50%;
+
 }
