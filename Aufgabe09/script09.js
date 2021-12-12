@@ -1,33 +1,33 @@
 // tslint:disable-next-line: typedef
 window.addEventListener("load", function () {
+    // tslint:disable-next-line: variable-name
     var Todo;
-    ((Todo) => {
-        // 1. Select the div element using the id property
+    ((_Todo) => {
+        // tslint:disable-next-line: typedef
         var app = document.getElementById("app");
-        // 2. Create a new <p></p> element programmatically
+        // tslint:disable-next-line: typedef
         var p = document.createElement("p"); // <p></p>
-        // 3. Add the text content
         p.textContent = "Erstelle hier deine ToDo-Liste:";
-        // 4. Append the p element to the div element
         app.appendChild(p);
         document.querySelector("#addButton").addEventListener("click", addTextToHtml);
+        // tslint:disable-next-line: typedef
         var input = document.querySelector("#inputTodo");
+        // tslint:disable-next-line: typedef
         function addTextToHtml() {
             var textVonEingabefeld;
             if (input.value != "")
                 textVonEingabefeld = input.value;
-            // Textfeld leeren
             input.value = "";
-            // 1. Select the div element using the id property
+            // tslint:disable-next-line: typedef
             var app = document.getElementById("app");
-            // 2. Create a new <p></p> element programmatically
             // tslint:disable-next-line: typedef
             var p = document.createElement("p");
-            // 3. Add the text content
             p.textContent = textVonEingabefeld;
             p.addEventListener("click", erledigt);
-            // 4. Append the p element to the div element
-            app === null || app === void 0 ? void 0 : app.appendChild(p);
+            // tslint:disable-next-line: typedef
+            const newLocal = void 0;
+            // tslint:disable-next-line: no-unused-expression
+            app === null || app === void 0 ? newLocal : app.appendChild(p);
         }
         // tslint:disable-next-line: typedef
         function erledigt() {
