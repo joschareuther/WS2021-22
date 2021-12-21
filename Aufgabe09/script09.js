@@ -7,8 +7,6 @@ window.addEventListener("load", function () {
         let app = document.getElementById("app");
         // tslint:disable-next-line: typedef
         let p = document.createElement("p"); // <p></p>
-        p.textContent = "Erstelle hier deine ToDo-Liste:";
-        app.appendChild(p);
         document.querySelector("#addButton").addEventListener("click", addTextToHtml);
         // tslint:disable-next-line: typedef
         var input2 = document.getElementById("inputTodo");
@@ -17,6 +15,10 @@ window.addEventListener("load", function () {
                 addTextToHtml();
             }
         });
+        // tslint:disable-next-line: typedef
+        let totalnumber = 0;
+        totalnumber++;
+        document.querySelector("h2").innerHTML = totalnumber + " in total";
         // tslint:disable-next-line: typedef
         let input = document.querySelector("#inputTodo");
         // tslint:disable-next-line: typedef
