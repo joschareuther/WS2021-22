@@ -34,7 +34,7 @@ header a {
 }
 .Stern1, .Stern1_hover{
     position: absolute;
-    top: 250px;
+    top: 270px;
     left: 400px;
 }
 .Stern1_hover{
@@ -78,7 +78,7 @@ header a {
 
 .Stern4, .Stern4_hover{
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: 390px;
 }
 
@@ -90,7 +90,7 @@ header a {
 
 .Text{
     position: absolute;
-    right: 160px;
+    right: 100px;
     top: 80px;
     color: white;
 }
